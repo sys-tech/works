@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.Random;
 
 /**
- * Created by Yuriy on 10.02.2016.
+ * Created by Yuriy on 10.02.2016..
  */
 
 /*
