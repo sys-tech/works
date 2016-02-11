@@ -24,7 +24,7 @@ public class FirstDating {
 
     }
 
-    // Метода анализа - какой пола у человека,  кто ты  - Мужчина или Женщина
+    // Метода анализа - какой пол у человека,  кто ты  - Мужчина или Женщина?
     public static void manWoman() throws IOException {
         BufferedReader inputSex = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Введите \"Male\" - если вы мужчина или Введите \"Female\"- если вы женщина!");
@@ -45,13 +45,13 @@ public class FirstDating {
 
     }
 
-    //Метод выбора случайного числа из заданного диапазона.
+    //Метод выбора случайного числа из заданного диапазона (для мужчин), потом это число подставляется в метод с вопросами.
     public static void mathRandomMale() {
         Random random = new Random();
         int question = random.nextInt(18);
         getQuestionMale(question);
     }
-
+    //Метод выбора случайного числа из заданного диапазона (для женщин), потом это число подставляется в метод с вопросами.
     public static void mathRandomFemale() {
         Random random = new Random();
         int question = random.nextInt(18);
@@ -59,7 +59,7 @@ public class FirstDating {
         //System.out.println(a);
     }
 
-    // Метод с вопросами для мужчин
+    // Метод с вопросами для мужчин.
     public static void getQuestionMale(int question) {
         switch (question) {
             case 1:
@@ -119,7 +119,7 @@ public class FirstDating {
                 break;
         }
     }
- // Метод с вопросами для женщин
+ // Метод с вопросами для женщин.
     public static void getQuestionFemale(int question) {
         switch (question) {
             case 1:
